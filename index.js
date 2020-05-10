@@ -8,7 +8,7 @@ client.connect();
 const app = express();
 app.use(express.json());
 
-const port = 8080;
+const port = 80;
 
 async function getHighscores() {
     res = await client.query(
